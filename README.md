@@ -1,6 +1,15 @@
 TruncateHtml
 ============
 
+For padrino, in helpers;
+
+```ruby
+module PostHelpers
+  include TruncateHtmlHelper
+end
+```
+
+
 [![Build Status](https://secure.travis-ci.org/hgmnz/truncate_html.png?branch=master)](http://travis-ci.org/hgmnz/truncate_html)
 [![Code Climate](https://codeclimate.com/github/hgmnz/truncate_html.png)](https://codeclimate.com/github/hgmnz/truncate_html)
 
